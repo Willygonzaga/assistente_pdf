@@ -1,0 +1,13 @@
+# Arquivos de ambiente virtual e cache
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+.venv/
+
+# Arquivos temporários da nossa aplicação
+temp_upload.pdf
+
+# Outros
+.DS_Store
