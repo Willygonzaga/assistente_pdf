@@ -20,6 +20,14 @@ load_dotenv()
 
 # Configuração da página da aplicação
 st.set_page_config(page_title="Leitor Inteligente de PDFs", page_icon="📄", layout="wide")
+
+# Remove a barra superior do Streamlit (Fork, GitHub, etc) para uma aparência 100% profissional e limpa
+st.markdown("""
+    <style>
+        [data-testid="stToolbar"] {visibility: hidden !important;}
+        footer {visibility: hidden !important;}
+    </style>
+""", unsafe_allow_html=True)
 st.title("Assistente Virtual de Leitura de PDFs 📄🤖")
 st.markdown("Faça o upload de documentos em formato PDF. A inteligência artificial extrairá o conteúdo e responderá às suas perguntas baseando-se exclusivamente no texto processado.")
 
