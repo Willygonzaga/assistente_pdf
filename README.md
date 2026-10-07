@@ -1,6 +1,10 @@
 # Assistente Virtual de Leitura de PDFs 📄🤖
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://assistente-pdf.streamlit.app)
+
 Um aplicativo web interativo alimentado por Inteligência Artificial capaz de ler documentos em formato PDF e responder a perguntas com base estrita no contexto extraído. Desenvolvido com **Streamlit**, **LangChain** e **Google Gemini**, este projeto demonstra a implementação prática de RAG (Retrieval-Augmented Generation) e fluxos baseados em grafos.
+
+**👉 Teste a aplicação ao vivo:** [assistente-pdf.streamlit.app](https://assistente-pdf.streamlit.app)
 
 ## 🚀 Funcionalidades
 
